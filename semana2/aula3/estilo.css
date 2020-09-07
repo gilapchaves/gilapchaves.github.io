@@ -1,0 +1,71 @@
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*.fonte_titulo{
+    font-family: 'Anton', sans-serif;
+}
+
+.fonte_subtitulo{
+    font-family: 'Roboto', sans-serif;
+}*/
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    padding-top: 12%;
+    margin: 0;
+    font-size: 550%; 
+}
+
+#subtitulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 160%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;    
+}
+
+#acao{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #00000060;
+}
+
+.icone{
+    width: 55px;
+}
+
+.destaque{
+    background-color: #d9c7c562;
+}
+/*Alteração do padding*/
+section{
+    padding: 20px;
+}
+
+.imgeco{
+    width: 30%;
+}
+
